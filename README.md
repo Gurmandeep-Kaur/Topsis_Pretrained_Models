@@ -29,6 +29,14 @@ The weights used were "4,2,1,1" giving the highest importance to response qualit
 
 DialoGPT-medium achieved the highest TOPSIS score due to its balanced performance across all criteria. Although BlenderBot-400M has the highest quality, its large size, high latency, and memory usage significantly reduced its overall score. 
 
+| Model | Quality | Latency | ModelSize | Memory | Topsis Score | Rank |
+|-------|---------|---------|-----------|--------|--------------|------|
+| DialoGPT-small | 6.5 | 0.6 | 117 | 500 | 0.7095379764262336 | 3 |
+| DialoGPT-medium | 7.5 | 0.9 | 345 | 700 | 0.7321452290027828 | 1 |
+| DialoGPT-large | 8.5 | 1.5 | 774 | 1200 | 0.5044375183389685 | 4 |
+| BlenderBot-small | 7.8 | 1.0 | 350 | 750 | 0.7278528187829979 | 2 |
+| BlenderBot-400M | 9.0 | 2.0 | 1600 | 2000 | 0.2904620235737663 | 5 |
+
 ---
 
 ## Python Package
